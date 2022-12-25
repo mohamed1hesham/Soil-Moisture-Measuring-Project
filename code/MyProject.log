@@ -1,0 +1,13 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"H:\Curriculum\3nd\3rd\2nd\Embedded systems\assignment 2\code\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"H:\Curriculum\3nd\3rd\2nd\Embedded systems\assignment 2\code\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "MyProject.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_C.mcl" "__Lib_PWM_c21.mcl" "__Lib_UART_c67.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	MyProject.c
+error: 26	324	Undeclared identifier '10' in expression	MyProject.c
+error: 27	395	Expression must be greater than 0	MyProject.c
+error: 27	300	Syntax Error: ')' expected,  but ';' found	MyProject.c
+warning: 27	1515	Time too small, no code generated	MyProject.c
+error: 27	402	; expected, but 'PWM2_Set_Duty' found	MyProject.c
+error: 28	424	'}' expected ';' found	MyProject.c
+error: 60	424	'}' expected '}' found	MyProject.c
+error: 60	424	'}' expected '}' found	MyProject.c
+error: 60	424	'}' expected '}' found	MyProject.c
+error: 0	102	Finished (with errors): 02 Jun 2022, 08:56:01	MyProject.mcppi
